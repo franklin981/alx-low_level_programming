@@ -1,6 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/**
+ * main -> this codes runs that in every execution gives a random value
+ *Return : function always gives a value of zero
+ */
 int main(void)
 {
 int n;
