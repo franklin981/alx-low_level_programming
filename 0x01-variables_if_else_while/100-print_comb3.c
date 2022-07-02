@@ -25,5 +25,4 @@ putchar(32);
 }
 }
 }
-return (0);
 }
