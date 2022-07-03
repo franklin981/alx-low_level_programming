@@ -22,6 +22,7 @@ if (ch != 56 || n != 57)
 putchar(44);
 putchar(32);
 }
+putchar(10);/* ASCI character for new line */
 }
 }
 }
