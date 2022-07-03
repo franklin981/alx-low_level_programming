@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-  printf("with proper grammar, but the outcome is a piece of art\n");
+  printf("programming is like a building a multilingual puzzl\n");
   return (0);
 }
