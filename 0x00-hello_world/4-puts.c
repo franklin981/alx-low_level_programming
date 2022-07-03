@@ -1,8 +1,8 @@
- #include <stdio.h>
+#include <stdio.h>
 /**
  * main - the main function starts here
  *
- * Return: of the coe is always 0
+ * Return: of the code is always 0
  */
 int main(void)
 {
