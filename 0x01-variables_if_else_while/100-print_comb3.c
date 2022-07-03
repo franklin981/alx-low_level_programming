@@ -23,8 +23,7 @@ putchar(44);
 putchar(32);
 }
 }
-putchar(10);/* ASCI character for new line */
 }
 }
-return (0);
+putchar(10);
 }
