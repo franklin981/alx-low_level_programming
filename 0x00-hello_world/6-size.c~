@@ -1,0 +1,12 @@
+#include <stdlib.h>
+#include <stdio.h>
+/**
+ * main - this is where the main starts
+ *
+ * Return: the value should be zero
+*/
+int main(void)
+{
+  
+  return (0);
+}
