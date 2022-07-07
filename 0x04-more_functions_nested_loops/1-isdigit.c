@@ -2,7 +2,7 @@
 /**
  * _isdigit - function to check a  digit
  * @c: an interger argument
- * Return :  success
+ * Return:  success
  */
 int _isdigit(int c)
 {
