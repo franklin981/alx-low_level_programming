@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * isupper -> this function ti check if your alphabet is 
- *
+ * _isupper -> this function ti check if your alphabet is
+ * @c: an integer parameter
  * Return: is 0
  */
 int _isupper(int c)
@@ -13,5 +13,5 @@ return (1);
 else
 {
 return (0);
-}  
+}
 }
