@@ -1,0 +1,10 @@
+#include "main.h"
+/**
+ * mul() - function to hold two value
+ *
+ * Return: this return a success
+ */
+int mult(int a, int b)
+{
+return (0);
+}
