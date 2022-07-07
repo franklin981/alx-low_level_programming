@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - entry point
- * Return: 0 if successful
- */
+ * print_alphabet -> in lower case
+ * /
 void print_alphabet(void)
 {
 int j;
