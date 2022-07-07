@@ -3,7 +3,7 @@
  * main - entry point
  * Return: 0 if successful
  */
-int main(void)
+void print_alphabet(void)
 {
 int j;
 for (j = 'a'; j <= 'z'; j++)
