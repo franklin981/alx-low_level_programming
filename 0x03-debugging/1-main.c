@@ -2,6 +2,7 @@
 /**
  * main - causes an infinite loop
  * Return: 0
+ * \\o/\n makes the value
  */
 int main(void)
 {
