@@ -5,17 +5,17 @@
 #define janDaysTot 31
 
 /**
-print_remaining_days - takes a date and prints how many days are
-left in the year, taking leap years into considerations
-@month: month in number format
-@day: day of month
-@year: year
-
-Created by: ALX
-modified by: Jonah Jockthan
-dat modified: 6th july, 2022
-
-Return: void
+ *print_remaining_days - takes a date and prints how many days are
+ *left in the year, taking leap years into considerations
+ *@month: month in number format
+ *@day: day of month
+ *@year: year
+ *
+ *Created by: ALX
+ *modified by: Jonah Jockthan
+ *dat modified: 6th july, 2022
+ *
+ *Return: void
 */
 
 void print_remaining_days(int month, int day, int year)
