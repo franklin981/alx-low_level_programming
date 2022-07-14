@@ -1,3 +1,4 @@
+#include "string.h"
 #include "main.h"
 /**
  * puts2 -> puts2 functions
@@ -6,7 +7,7 @@
 
 void puts2(char *str)
 {
-int len;
+int len, i;
 len = strlen(str);
 for (i = 0; i < len; i += 2)
 {
