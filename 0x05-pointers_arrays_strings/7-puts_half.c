@@ -1,7 +1,7 @@
 #include "main.h"
 #include "string.h"
 /**
- * put_half - is working
+ * puts_half - is working
  * @str: - parameter
  */
 void puts_half(char *str)
