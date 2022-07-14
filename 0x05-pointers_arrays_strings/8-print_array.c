@@ -1,6 +1,6 @@
 #include "main.h"
 #include "string.h"
-#include <stdio>
+#include <stdio.h>
 /**
  * print_array - function to print an array
  * @a: parameter a
