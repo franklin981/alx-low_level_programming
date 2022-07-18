@@ -1,7 +1,4 @@
-#include "holberton.h"
-
-
-
+#include "main.h"
 /**
  * _strchr - prints found c
  * @s: pointer to char
