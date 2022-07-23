@@ -7,5 +7,6 @@ char *_strstr(char *s, char *c);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 int _putchar(char c);
+void set_string(char **s, char *to);
 
 #endif

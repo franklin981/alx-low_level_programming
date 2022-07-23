@@ -1,30 +1,37 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- *main -> assign a random number to the variable n each time it is executed
- *and print the last digit of the number stored in the variable n
- *Return: Always 0 (Success)
+ * main - Entry point
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
-int ch;
-int n;
-for (ch = 48; ch <= 57; ch++)
-{
-for (n = 49; n <= 57; n++)
-{
-if (n > ch)
-{
-putchar(ch);
-putchar(n);
-if (ch != 56 || n != 57)
-{
-putchar(44);
-putchar(32);
-}
-}
-}
-}
-putchar(10);
-return (0);
+	int i = '0';
+	int j = '0';
+
+	while (i <= '9')
+	{
+		while (j <= '9')
+		{
+			if (!(i > j || i == j))
+			{
+				putchar(i);
+				putchar(j);
+				if (i == '8' && j == '9')
+				{
+					putchar('\n');
+				}
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			j++;
+		}
+		j = '0';
+		i++;
+	}
+
+	return (0);
 }
